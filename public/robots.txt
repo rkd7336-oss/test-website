@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+User-agent: Yeti
+Allow: /
+Sitemap: https://naturalbox.co.kr/sitemap-index.xml

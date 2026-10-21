@@ -1,0 +1,7 @@
+﻿---
+const SITE = (await import('../consts')).SITE;
+---
+<div class="cta-bar">
+  <a class="cta talk" href={SITE.talk} target="_blank" rel="noopener">톡톡 문의</a>
+  <a class="cta call" href={SITE.phoneHref}>{SITE.phone}</a>
+</div>

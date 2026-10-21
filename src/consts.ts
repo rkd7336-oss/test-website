@@ -1,0 +1,20 @@
+﻿export const SITE = {
+  name: "네츄럴박스 헬스&PT 송우점",
+  shortName: "네츄럴박스 송우점",
+  url: "https://naturalbox.co.kr",
+  phone: "0507-1495-2334",
+  phoneHref: "tel:050714952334",
+  address: "경기 포천시 소흘읍 솔모루로109번길 5 에스케이니트 6층",
+  addressShort: "포천시 소흘읍 송우리",
+  directions: "송우리 우체국 뒤편, 에스케이니트 건물 6층",
+  geo: { lat: 37.8308287, lng: 127.1483470 },
+  hours: [
+    { days: ["월","화","수","목","금"], open: "07:00", close: "23:00" },
+    { days: ["토"], open: "09:00", close: "18:00" },
+  ],
+  closed: "일요일 정기휴무",
+  placeUrl: "https://map.naver.com/p/entry/place/296838883",
+  blog: "https://blog.naver.com/naturalbox_2st",
+  talk: "https://talk.naver.com/profile/naturalbox-songuri",
+  littly: "https://litt.ly/naturalbox-songuri",
+} as const;
