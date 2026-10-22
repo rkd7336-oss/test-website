@@ -1,11 +1,11 @@
-﻿---
+---
 const SITE = (await import('../consts')).SITE;
 const links = [
   { href: '/', label: '홈' },
-  { href: '/pt/', label: 'PT' },
-  { href: '/price/', label: '가격' },
-  { href: '/songuri/', label: '송우리 헬스장' },
-  { href: '/songuri-pt/', label: '송우리 PT' },
+  { href: '/포천PT/', label: 'PT' },
+  { href: '/포천헬스/', label: '포천 헬스' },
+  { href: '/송우리헬스장/', label: '송우리 헬스장' },
+  { href: '/송우리PT/', label: '송우리 PT' },
 ];
 ---
 <header class="site-header">
@@ -14,4 +14,5 @@ const links = [
     {links.map(l => <a href={l.href}>{l.label}</a>)}
   </nav>
 </header>
+
 
