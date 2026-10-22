@@ -2,8 +2,10 @@
 const SITE = (await import('../consts')).SITE;
 ---
 <footer class="site-footer">
-  <p>{SITE.name}</p>
-  <p>{SITE.address}</p>
-  <p><a href={SITE.placeUrl}>네이버 플레이스</a> · <a href={SITE.blog}>블로그</a></p>
+  <span class="brandline">NATURALBOX</span>
+  <p>몸을 먼저 이해하고, 운동을 바로잡습니다.</p>
+  <p>{SITE.address} · {SITE.phone}</p>
+  <p><a href={SITE.placeUrl} target="_blank" rel="noopener">네이버 플레이스</a> · <a href={SITE.blog} target="_blank" rel="noopener">블로그</a></p>
   <p>© {new Date().getFullYear()} {SITE.name}</p>
 </footer>
+

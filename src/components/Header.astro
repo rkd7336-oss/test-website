@@ -1,16 +1,17 @@
 ﻿---
 const SITE = (await import('../consts')).SITE;
 const links = [
-  { href: '/', label: '포천 헬스장' },
-  { href: '/pt/', label: '포천 PT' },
+  { href: '/', label: '홈' },
+  { href: '/pt/', label: 'PT' },
+  { href: '/price/', label: '가격' },
   { href: '/songuri/', label: '송우리 헬스장' },
   { href: '/songuri-pt/', label: '송우리 PT' },
-  { href: '/price/', label: '가격' },
 ];
 ---
 <header class="site-header">
-  <a class="logo" href="/">{SITE.shortName}</a>
+  <a class="logo" href="/">NATURALBOX<small>{SITE.shortName}</small></a>
   <nav>
     {links.map(l => <a href={l.href}>{l.label}</a>)}
   </nav>
 </header>
+

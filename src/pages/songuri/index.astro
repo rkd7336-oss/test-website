@@ -3,12 +3,19 @@ import Base from '../../layouts/Base.astro';
 import { SITE } from '../../consts';
 ---
 <Base title="송우리 헬스장 | 우체국 뒤편 에스케이니트 6층" description="송우리에서 가까운 헬스장을 찾고 있다면, 우체국 뒤편 에스케이니트 6층 네츄럴박스 송우점입니다." image="/og/songuri.webp">
-  <section class="hero"><div><h1>송우리 헬스장</h1><p>우체국 뒤편 골목으로 들어오면 바로 보입니다.</p></div></section>
-  <section class="section"><h2>찾아오는 길</h2>
+  <section class="hero compact"><div class="hero-copy">
+    <span class="eyebrow">Location</span>
+    <h1>송우리 헬스장</h1>
+    <p class="hero-lead">우체국 뒤편 골목으로 들어오면 바로 보입니다.</p>
+    <div class="hero-actions"><a class="btn" href={SITE.placeUrl} target="_blank" rel="noopener">길찾기</a><a class="btn ghost" href={SITE.phoneHref}>전화 문의</a></div>
+  </div></section>
+  <section class="section">
+    <div class="section-heading"><div><p class="kicker">Visit</p><h2>찾아오는 길</h2></div><p>건물 앞 무료 주차가 있어 차량 방문도 편합니다.</p></div>
     <dl class="info">
       <dt>주소</dt><dd>{SITE.address}</dd>
       <dt>건물</dt><dd>에스케이니트 6층 (도미노피자 포천송우점 옆)</dd>
       <dt>주차</dt><dd>무료 주차</dd>
+      <dt>영업시간</dt><dd>월~금 07:00~23:00 / 토 09:00~18:00<br />{SITE.closed}</dd>
     </dl>
   </section>
 </Base>

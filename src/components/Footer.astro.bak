@@ -1,0 +1,9 @@
+﻿---
+const SITE = (await import('../consts')).SITE;
+---
+<footer class="site-footer">
+  <p>{SITE.name}</p>
+  <p>{SITE.address}</p>
+  <p><a href={SITE.placeUrl}>네이버 플레이스</a> · <a href={SITE.blog}>블로그</a></p>
+  <p>© {new Date().getFullYear()} {SITE.name}</p>
+</footer>
