@@ -1,6 +1,7 @@
-import { defineConfig } from 'astro/config';
+﻿import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://naturalbox.co.kr',
+  site: 'https://songurihealthjang.pages.dev',
   trailingSlash: 'always',
 });
+

@@ -1,7 +1,7 @@
 ﻿export const SITE = {
   name: "네츄럴박스 헬스&PT 송우점",
   shortName: "네츄럴박스 송우점",
-  url: "https://naturalbox.co.kr",
+  url: "https://songurihealthjang.pages.dev",
   phone: "0507-1495-2334",
   phoneHref: "tel:050714952334",
   address: "경기 포천시 소흘읍 솔모루로109번길 5 에스케이니트 6층",
@@ -18,3 +18,4 @@
   talk: "https://talk.naver.com/profile/naturalbox-songuri",
   littly: "https://litt.ly/naturalbox-songuri",
 } as const;
+
